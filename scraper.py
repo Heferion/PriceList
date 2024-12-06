@@ -60,11 +60,11 @@ def scrape_product(url, search_query):
     else:
         return {
         "Search": "No se encontraron productos que coincidan con la búsqueda especificada.",
-        "average price": 0.0
+        "Average price": 0.0
     }
 
     # Devolver los datos scrapeados
     return {
         "Search": search_query,
-        "average price": average_price
+        "Average price": average_price
     }
